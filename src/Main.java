@@ -3,7 +3,7 @@ public class Main {
         Weapon bigMace = new Weapon("Big Mace", "A Big Mace. Slightly more dangerous from a regular mace.", 15,30);
         Gold goldBar = new Gold(10);
         Weapon softPillow = new Weapon("Soft Pillow","A pillow, super soft.",1,1);
-        Weapon magicSword = new Weapon("Magic Sword","A powerful sword overflowing with magic",10,25);
+        Sword magicSword = new Sword("Magic Sword","A shiny sword with magic flowing around it.",20,40);
         Enemy greenOgre = new Enemy("Green Ogre","An ugly green ogre",30,20);
         Enemy redOgre = new Enemy("Red Ogre","An ugly red ogre",30,20);
         Enemy slowZombie = new Enemy("Slow Zombie","A zombie who isn't really athletic",20,15);
