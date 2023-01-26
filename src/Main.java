@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Weapon bigMace = new Weapon("Big Mace", "A Big Mace. Slightly more dangerous from a regular mace.", 11,30);
-        Gold goldBar = new Gold("Gold Bar",10);
+        Weapon bigMace = new Weapon("Big Mace", "A Big Mace. Slightly more dangerous from a regular mace.", 15,30);
+        Gold goldBar = new Gold(10);
         Weapon softPillow = new Weapon("Soft Pillow","A pillow, super soft.",1,1);
         Weapon magicSword = new Weapon("Magic Sword","A powerful sword overflowing with magic",10,25);
         Enemy greenOgre = new Enemy("Green Ogre","An ugly green ogre",30,20);
