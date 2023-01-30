@@ -9,7 +9,8 @@ public class Main {
         Zombie slowZombie = new Zombie("Slow Zombie","A zombie who isn't really athletic",20,15);
         Zombie fastZombie = new Zombie("Fast Zombie","A zombie who is athletic",20,15);
         Dog spotDog = new Dog("Spot Dog","A spotty dog who isn't very friendly",20,15);
-        Enemy smallPixie = new Enemy("Small Pixie","A small mythical creature who doesn't seem to like you.",15,3);
+        GiantSpider giantSpider = new GiantSpider("Giant Spider","A very big arachnid.",20,15);
+        Pixie smallPixie = new Pixie("Small Pixie","A small mythical creature who doesn't seem to like you.",15,3);
 
     }
 }
