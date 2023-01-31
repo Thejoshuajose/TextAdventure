@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24560220-0298-4dd1-a94d-74052e2c436a" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/GiantSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/GiantSpider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Ogre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/Ogre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Pixie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/Pixie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Zombie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/Zombie.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675110978161</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1675111157105</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675111157105</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
