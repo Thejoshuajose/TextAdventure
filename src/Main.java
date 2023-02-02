@@ -12,6 +12,13 @@ public class Main {
         GiantSpider giantSpider = new GiantSpider("Giant Spider","A very big arachnid.",20,15);
         Pixie smallPixie = new Pixie("Small Pixie","A small mythical creature who doesn't seem to like you.",15,3);
 
+        Player player1= new Player("Joker");
+        if (player1.getLife()== true)
+            System.out.println("Player is alive");
+        else
+            System.out.println("Player is dead");
+
     }
+
 }
 
