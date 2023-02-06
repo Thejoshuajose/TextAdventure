@@ -5,11 +5,13 @@ public class Enemy {
     protected int hp;
     protected int damage;
 
+
     public Enemy(String name,String description,int hp,int damage){
         this.name = name;
         this.description = description;
         this.damage = damage;
         this.hp = hp;
+
     }
 
     public boolean is_alive(){

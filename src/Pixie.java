@@ -1,5 +1,6 @@
 public class Pixie extends Enemy{
     //Same thing...Only a constructor just overloaded.
+
     public Pixie(String name,String description,int hp,int damage) {
         super(name, description, hp, damage);
     }
