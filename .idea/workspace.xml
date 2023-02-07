@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="24560220-0298-4dd1-a94d-74052e2c436a" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/Enemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/GiantSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/GiantSpider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Ogre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/Ogre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Pixie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/Pixie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Zombie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/Zombie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -248,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675709514604</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1675741957821</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1675741957821</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

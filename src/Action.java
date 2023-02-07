@@ -1,4 +1,3 @@
-import java.lang.reflect.Method;
 
 public class Action {
     private Method method;
@@ -7,7 +6,7 @@ public class Action {
     public char getHotkey() {
         return hotkey;
     }
-public void setHotkey(char hotkey){
+    public void setHotkey(char hotkey){
         this.hotkey = hotkey;
     }
 
