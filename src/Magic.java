@@ -1,3 +1,3 @@
 public enum Magic {
-    SparkleBall,Fly,Bewitch,
+    SparkleBall,Fly,Bewitch,Hide
 }
