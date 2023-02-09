@@ -1,4 +1,4 @@
-public class Item {
+public abstract class Item {
     protected String name;
     protected String description;
     protected int value;
