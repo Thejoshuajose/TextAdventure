@@ -14,7 +14,6 @@ public class Action {
 
     public String getName(){
         return name;
-
     }
 
     public void setName(String name){
@@ -25,7 +24,6 @@ public class Action {
 
     public Enemy getKwargs(){
         return kwargs;
-
     }
     public void setKwargs(Enemy kwargs){
         this.kwargs = kwargs;
