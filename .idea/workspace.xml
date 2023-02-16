@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24560220-0298-4dd1-a94d-74052e2c436a" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change beforePath="$PROJECT_DIR$/src/Attack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Attack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Attack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dodge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoveEast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoveEast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoveNorth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoveNorth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoveWest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoveWest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676332413716</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1676332698421</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1676332698421</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
