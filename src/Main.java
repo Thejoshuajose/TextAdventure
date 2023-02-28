@@ -18,6 +18,9 @@ public class Main {
         else
             System.out.println("Player is dead");
 
+        World world  = new World();
+        world.load_tiles();
+
     }
 
 }
