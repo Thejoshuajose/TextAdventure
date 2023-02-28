@@ -14,7 +14,7 @@ public class World {
         List<String> rows = new ArrayList<String>();
         try{
             BufferedReader f = new BufferedReader(new FileReader("src/map.txt"));
-        String row;
+            String row;
             while ((row = f.readLine()) != null){
                 rows.add(row);
             }
