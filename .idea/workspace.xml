@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24560220-0298-4dd1-a94d-74052e2c436a" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/map.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/map.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/MapTile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TextAdventure/MapTile.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -378,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677609089658</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1678676898708</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1678676898708</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -408,16 +412,5 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;test.txt" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/World.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
