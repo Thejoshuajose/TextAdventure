@@ -8,10 +8,10 @@ public class World {
     public static String[][] _world;
 
     static Point Starting_Position = new Point(0,0);
-    public static ArrayList<MapTile> history = new ArrayList<MapTile>();
+    public static ArrayList<MapTile> history = new ArrayList<>();
 
     public void load_tiles(){
-        List<String> rows = new ArrayList<String>();
+        List<String> rows = new ArrayList<>();
         try{
             BufferedReader f = new BufferedReader(new FileReader("src/map.txt"));
             String row;
@@ -27,9 +27,9 @@ public class World {
                 cols = rows.get(y).split("\t");
                 for(int x = 0; x < x_max; x++){
                     tile_name = cols[x];
-                    if (tile_name.equals("StartingRoom")){
-                        Starting_Position.x = y;
-                        Starting_Position.y = x;
+                        if (tile_name.equals("StartingRoom")){
+                        Starting_Position.x = x;
+                        Starting_Position.y = y;
                     }
                     _world[y][x] = tile_name.equals(" ")?null:tile_name;
                 }
