@@ -25,11 +25,11 @@ public class World {
             String tile_name;
             for (int y = 0; y < rows.size(); y++){
                 cols = rows.get(y).split("\t");
-                for(int x = 0; x < x_max; x++){
+                for(int x = 0; x < x_max; x++) {
                     tile_name = cols[x];
-                        if (tile_name.equals("StartingRoom")){
-                        Starting_Position.x = x;
-                        Starting_Position.y = y;
+                        if (tile_name.equals("StartingRoom")) {
+                        Starting_Position.x = y;
+                        Starting_Position.y = x;
                     }
                     _world[y][x] = tile_name.equals(" ")?null:tile_name;
                 }
