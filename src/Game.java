@@ -1,5 +1,7 @@
 import java.io.IOException;
 
+import static java.lang.System.in;
+
 public class Game {
 
     public static void main (String[] args)throws IOException{
@@ -28,6 +30,7 @@ public class Game {
                     }
                 }
 
+            else
             }
         }
 
