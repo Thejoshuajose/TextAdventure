@@ -39,6 +39,10 @@ public class Player {
         return life;
     }
 
+    public boolean is_alive(){
+        return (this.hp > 0);
+    }
+
     //byte byte1 = 127;
     //int hp; 32 bit
     //long example2; 64 bit

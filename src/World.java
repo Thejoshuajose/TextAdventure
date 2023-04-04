@@ -39,4 +39,8 @@ public class World {
             e.printStackTrace();
         }
     }
+
+    public static MapTile tile_exists(int x, int y){
+        MapTile mt = null;
+    }
 }
