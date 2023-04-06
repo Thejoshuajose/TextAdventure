@@ -51,4 +51,8 @@ public class MapTile {
         }
         return moves;
     }
+
+    public String intro_text() {
+        return null;
+    }
 }

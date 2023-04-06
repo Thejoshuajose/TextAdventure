@@ -42,5 +42,10 @@ public class World {
 
     public static MapTile tile_exists(int x, int y){
         MapTile mt = null;
+//if statement to determine if the room exists
+        if(){
+
+        }
+        return mt;
     }
 }

@@ -9,11 +9,12 @@ public class EnemyRoom extends MapTile{
     public void modify_player(Player the_player){
         if (enemy.is_alive())
         {
-            the_player.hp  = the_player.hp - enemy.damage;
+            the_player.hp  = (short) (the_player.hp - enemy.damage);
 
-            System.out.println();
+            System.out.println("");
 
 
         }
+
     }
 }

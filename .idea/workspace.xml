@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24560220-0298-4dd1-a94d-74052e2c436a" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TextAdventure/World.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnemyRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnemyRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MapTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MapTile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StartingRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartingRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Game">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Game" />
       <module name="TextAdventure" />
@@ -88,13 +94,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674574757699</updated>
-    </task>
-    <task id="LOCAL-00001" summary="test">
-      <created>1674584874720</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1674584874720</updated>
     </task>
     <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;test.txt">
       <created>1674584965646</created>
@@ -432,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680622725965</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Merge remote-tracking branch 'origin/main'">
+      <created>1680623351161</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1680623351161</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
