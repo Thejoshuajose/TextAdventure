@@ -1,6 +1,7 @@
 import java.util.*;
 public class Player {
 
+
     String name;
     boolean life = true;
 
@@ -8,8 +9,9 @@ public class Player {
     short stamina = 100;
     short damage = 5;
 
-    int location_x;
-    int location_y;
+     int location_x;
+     int location_y;
+
 
     public Player (String name){
         super();
@@ -47,6 +49,7 @@ public class Player {
     }
 
 
+
     public boolean getLife(){
         if (hp<=0)
             life = false;
@@ -59,11 +62,13 @@ public class Player {
         return (this.hp > 0);
     }
 
+
     //byte byte1 = 127;
     //int hp; 32 bit
     //long example2; 64 bit
-public void do_action(Action action, Enemy kwargs, MapTile mp){
-        if (kwargs == null)
+    public void do_action(Action action, Enemy kwargs, MapTile mp){
+            if (kwargs == null){
 
-}
+        }
+    }
 }
