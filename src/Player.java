@@ -62,6 +62,11 @@ public class Player {
         return (this.hp > 0);
     }
 
+    public boolean victory() {
+        //need a if statement to check we have been to the leave cave room
+        return(this.victory = victory);
+    }
+
 
     //byte byte1 = 127;
     //int hp; 32 bit

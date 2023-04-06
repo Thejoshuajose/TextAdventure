@@ -43,8 +43,25 @@ public class World {
     public static MapTile tile_exists(int x, int y){
         MapTile mt = null;
 //if statement to determine if the room exists
-        if(){
-
+        if((x >= 0 && x < _world.length) && (y>= 0 && y < _world[0].length) && _world[x][y] != null ){
+            switch (_world[x][y]){
+                case "StartingRoom":
+                    mt = new StartingRoom(x,y);
+                    mt = checkRoomExists(mt);
+                    break;
+                case "PixieRoom":
+                    mt = new PixieRoom(x,y);
+                    mt = checkRoomExists(mt);
+                    break;
+                case "OgreRoom":
+                    mt = new OgreRoom(x,y);
+                    mt = checkRoomExists(mt);
+                    break;
+                case "ZombieRoom":
+                    mt = new ZombieRoom(x,y);
+                    mt = checkRoomExists(mt);
+                    break;
+            }
         }
         return mt;
     }

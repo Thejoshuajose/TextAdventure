@@ -11,7 +11,7 @@ public class Pixie extends Enemy{
     }
 
     public Pixie(){
-            super("Pixie","A small mythical creature with sparkles around it.",15,3,4);
+            super("Pixie","A small mythical creature with sparkles around it.",15,5,4);
     }
 
     public Pixie(String name,String description,int hp,int damage,Magic magic){
