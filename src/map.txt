@@ -1,7 +1,0 @@
- 	 	 	 	LeaveCaveRoom
-		FindMaceRoom	CyclopsRoom	EmptyCavePath
-	ZombieRoom	EmptyCavePath	EmptyCavePath	DogRoom
-FindPillowRoom	EmptyCavePath 	PixieRoom 	TreasureRoom	 ZombieRoom
-OgreRoom	TreasureRoom	StartingRoom	TreasureRoom	FindMaceRoom
-GiantSpiderRoom	EmptyCavePath	EmptyCavePath	FindSwordRoom	OgreRoom
-TreasureRoom	DogRoom	EmptyCavePath	EmptyCavePath	ZombieRoom
