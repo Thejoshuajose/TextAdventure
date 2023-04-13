@@ -11,6 +11,7 @@ public class LootRoom extends MapTile {
 
     public void addLoot(Player the_player) {
         the_player.inventory.add(item);
+        System.out.printf("You receive %s.\n",item.name);
         pickedItem = true;
     }
 

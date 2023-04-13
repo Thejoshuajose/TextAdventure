@@ -67,7 +67,7 @@ public class Player implements Comparable<Player> {
     //	public void flee(MapTile tile){
 //	    //Moves the player randomly to an adjacent tile
 //        ArrayList<MapTile> available_moves = tile.adjacent_moves();
-//        //r = random.randint(0, len(available_moves) - 1);
+ //       r = Random.radiant(0, len(available_moves) - 1);
 //        Random r = new Random();
 //        //do_action(available_moves[r]);
 //	}

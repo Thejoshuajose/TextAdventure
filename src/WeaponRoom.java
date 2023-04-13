@@ -5,6 +5,10 @@ public class WeaponRoom extends MapTile{
             super(x,y);
 
         }
+    public WeaponRoom(int x, int y,Weapon randomWeapon){
+        super(x,y,randomWeapon);
+
+    }
 
         public void modify_player(Player the_player){
             if ((the_player.inventory.contains(randomWeapon))) {

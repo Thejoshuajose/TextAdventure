@@ -1,4 +1,4 @@
-			DogRoom	LeaveCaveRoom
+PixieRoom	GiantSpiderRoom	FindArrowRoom	DogRoom	LeaveCaveRoom
 EmptyCavePath	FindMaceRoom	PixieRoom	OgreRoom	EmptyCavePath
 EmptyCavePath	ZombieRoom	EmptyCavePath	EmptyCavePath	DogRoom
 FindPillowRoom	EmptyCavePath	PixieRoom	TreasureRoom	ZombieRoom

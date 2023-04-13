@@ -93,6 +93,10 @@ public class World {
                     mt = new FindMaceRoom(x,y,new Mace());
                     mt = checkRoomExists(mt);
                     break;
+                case "FindArrowRoom":
+                    mt = new FindArrowRoom(x,y,new Arrow());
+                    mt = checkRoomExists(mt);
+                    break;
             }
         }
         return mt;

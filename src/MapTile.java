@@ -1,9 +1,10 @@
-import java.awt.Point;
 import java.util.ArrayList;
 
 public class MapTile {
     private int x;
     private int y;
+
+    private Weapon weapon;
 
 
     public int getX(){
@@ -25,6 +26,13 @@ public class MapTile {
     public MapTile(int x,int y){
         this.x = x;
         this.y = y;
+
+    }
+
+    public MapTile(int x,int y,Weapon weapon){
+        this.x = x;
+        this.y = y;
+        this.weapon = weapon;
 
     }
     @Override

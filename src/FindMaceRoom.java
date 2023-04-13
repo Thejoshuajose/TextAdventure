@@ -1,4 +1,5 @@
-public class FindMaceRoom extends LootRoom{
+public class FindMaceRoom extends LootRoom
+{
 
     private Mace BigMace;
     public FindMaceRoom(int x, int y, Mace BigMace){

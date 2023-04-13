@@ -1,9 +1,9 @@
-public class FindSwordRoom extends WeaponRoom{
+public class FindSwordRoom extends LootRoom{
 
-    private Sword MagicSword;
+    private Sword magicSword;
     public FindSwordRoom(int x, int y,Sword magicSword){
-        super(x,y);
-        this.MagicSword = magicSword;
+        super(x,y,magicSword);
+
     }
 
     public String intro_text() {
