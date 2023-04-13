@@ -195,6 +195,16 @@ public class Player implements Comparable<Player> {
 
     }
 
+    public void dodge() {
+        double chance = Math.random() * 100;
+        if (chance < 30) { // 0-30
+            System.out.println("You Dodge this attack by a hair");
+        }
+        else if (chance > 30){ // 30-100
+            System.out.println("You tried to dodge but still got hit");}
+        ;
+    }
+
    public void attackEnemy(Enemy  enemy)
     {
         Weapon best_weapon = new Weapon("None", "None", 0, 0);
@@ -229,6 +239,8 @@ public class Player implements Comparable<Player> {
                 move_south();
             } else if (action instanceof ShowInventory) {
                 print_inventory();
+            } else if (action instanceof Dodge) {
+                dodge();
             } else if (action instanceof RunAway) {
                 doFlee(mp);
             } else if (action instanceof Attack) {
