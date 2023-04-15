@@ -3,5 +3,5 @@ EmptyCavePath	FindMaceRoom	PixieRoom	OgreRoom	EmptyCavePath
 EmptyCavePath	ZombieRoom	EmptyCavePath	EmptyCavePath	DogRoom
 FindPillowRoom	EmptyCavePath	PixieRoom	TreasureRoom	ZombieRoom
 GiantSpiderRoom	EmptyCavePath	EmptyCavePath	FindSwordRoom	OgreRoom
-TreasureRoom	ZombieRoom	EmptyCavePath	EmptyCavePath	ZombieRoom
+TreasureRoom	ZombieRoom	DogRoom	EmptyCavePath	ZombieRoom
 OgreRoom	TreasureRoom	StartingRoom	TreasureRoom	FindMaceRoom

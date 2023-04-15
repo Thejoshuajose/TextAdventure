@@ -61,8 +61,8 @@ public class World {
                     mt = new ZombieRoom(x,y,new Zombie());
                     mt = checkRoomExists(mt);
                     break;
-                case "EmptyCaveRoom":
-                    mt = new EmptyCaveRoom(x,y);
+                case "EmptyCavePath":
+                    mt = new EmptyCavePathRoom(x,y);
                     mt = checkRoomExists(mt);
                     break;
                 case "FindPillowRoom":
