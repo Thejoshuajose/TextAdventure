@@ -76,6 +76,7 @@ public class MapTile {
     public ArrayList<Action> available_actions(){
         ArrayList<Action> moves = new ArrayList<>();
         moves = adjacent_moves();
+        moves.add(new RunAway());
         moves.add(new ShowInventory());
         return moves;
     }

@@ -1,6 +1,6 @@
 public class RunAway extends Action{
     public RunAway(){
-        super(Method.RunAway, "Flee", 'f', null);
+        super(Method.RunAway, "RunAway", 'r', null);
     }
 
 }
