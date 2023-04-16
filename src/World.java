@@ -97,6 +97,11 @@ public class World {
                     mt = new FindArrowRoom(x,y,new Arrow());
                     mt = checkRoomExists(mt);
                     break;
+
+                case "FirstBossRoom":
+                    mt = new FirstBossRoom(x,y,new Ifrit());
+                    mt = checkRoomExists(mt);
+                    break;
             }
         }
         return mt;
