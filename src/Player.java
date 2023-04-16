@@ -187,6 +187,7 @@ public class Player implements Comparable<Player> {
 
     public void doFlee(MapTile mp)
     {
+        System.out.println("You throw up your mini flag that says 'FLEE' and run away like a coward...\nHow shameful...You run away to another room.");
         ArrayList<Action> available_moves = mp.adjacent_moves();
         Random rn=new Random();
         int random=rn.nextInt(available_moves.size());
