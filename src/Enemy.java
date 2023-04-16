@@ -16,6 +16,14 @@ public abstract class Enemy {
 
     }
 
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
     public boolean is_alive(){
         return (this.hp > 0);
     }

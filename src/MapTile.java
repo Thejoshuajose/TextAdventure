@@ -78,6 +78,7 @@ public class MapTile {
         moves = adjacent_moves();
         moves.add(new RunAway());
         moves.add(new ShowInventory());
+        moves.add(new Dodge());
         return moves;
     }
     public String intro_text() {

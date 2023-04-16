@@ -1,7 +1,8 @@
 
 public class Action {
-    private Method method;
-    private char hotkey;
+
+    protected Method method;
+    protected char hotkey;
 
     public char getHotkey() {
         return hotkey;

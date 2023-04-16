@@ -195,14 +195,16 @@ public class Player implements Comparable<Player> {
 
     }
 
-    public void dodge() {
+    public void dodge(Enemy kwargs) {
         double chance = Math.random() * 100;
         if (chance < 30) { // 0-30
             System.out.println("You Dodge this attack by a hair");
+            kwargs.setDamage(0);
         }
         else if (chance > 30){ // 30-100
-            System.out.println("You tried to dodge but still got hit");}
-        ;
+            System.out.println("You tried to dodge but still got hit. However, you only take half the damage");
+            kwargs.setDamage(getDamage()/2);
+        }
     }
 
    public void attackEnemy(Enemy  enemy)
@@ -220,6 +222,7 @@ public class Player implements Comparable<Player> {
         } //End Code block for loop
         System.out.printf("You use %s against %s!",best_weapon.name, enemy.name);
         enemy.hp -= best_weapon.getDamage();
+
         if (!enemy.is_alive()){
             System.out.printf("You killed %s!",enemy.name);
         }else{
@@ -239,9 +242,10 @@ public class Player implements Comparable<Player> {
                 move_south();
             } else if (action instanceof ShowInventory) {
                 print_inventory();
-            } else if (action instanceof Dodge) {
-                dodge();
-            } else if (action instanceof RunAway) {
+            } //else if (action instanceof Dodge) {
+                //dodge(kwargs);
+            //}
+            else if (action instanceof RunAway) {
                 doFlee(mp);
             } else if (action instanceof Attack) {
                 attackEnemy(kwargs);
