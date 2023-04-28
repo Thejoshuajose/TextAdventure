@@ -196,15 +196,15 @@ public class Player implements Comparable<Player> {
 
     }
 
-    public void dodge(Enemy kwargs) {
+    public void dodge(Enemy enemy) {
         double chance = Math.random() * 100;
         if (chance < 30) { // 0-30
             System.out.println("You Dodge this attack by a hair");
-            kwargs.setDamage(0);
+            enemy.setDamage(0);
         }
         else if (chance > 30){ // 30-100
             System.out.println("You tried to dodge but still got hit. However, you only take half the damage");
-            kwargs.setDamage(getDamage()/2);
+            enemy.setDamage(getDamage()/2);
         }
     }
 
@@ -231,28 +231,26 @@ public class Player implements Comparable<Player> {
         }
     }
 
-    public void do_action(Action action, Enemy kwargs,MapTile mp) {
-        if (kwargs == null) {
-            if (action instanceof MoveEast) {
-                move_east();
-            } else if (action instanceof MoveWest) {
-                move_west();
-            } else if (action instanceof MoveNorth) {
-                move_north();
-            } else if (action instanceof MoveSouth) {
-                move_south();
-            } else if (action instanceof ShowInventory) {
-                print_inventory();
-            } //else if (action instanceof Dodge) {
-                //dodge(kwargs);
-            //}
-            else if (action instanceof RunAway) {
-                doFlee(mp);
-            } else if (action instanceof Attack) {
-                attackEnemy(kwargs);
-            }
-
+    public void do_action(Action action, Enemy enemy, MapTile mp) {
+        if (action instanceof MoveEast) {
+            move_east();
+        } else if (action instanceof MoveWest) {
+            move_west();
+        } else if (action instanceof MoveNorth) {
+            move_north();
+        } else if (action instanceof MoveSouth) {
+            move_south();
+        } else if (action instanceof ShowInventory) {
+            print_inventory();
+        } else if (action instanceof RunAway) {
+            doFlee(mp);
+        } else if (action instanceof Attack) {
+            attackEnemy(enemy);
+        } else if (action instanceof Dodge) {
+            dodge(enemy);
         }
-    }//End Code block do_attack method*/
+    }
+//End Code block do_attack method*/
+}
 
-} //End Code block class
+ //End Code block class
