@@ -2,7 +2,7 @@ public class PixieRoom  extends EnemyRoom{
 
     private Pixie pixie;
     public PixieRoom(int x,int y, Pixie pixie){
-        super(x, y);
+        super(x, y,pixie);
         this.pixie = pixie;
     }
 

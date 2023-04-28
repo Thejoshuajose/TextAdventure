@@ -2,7 +2,7 @@ public class DogRoom extends EnemyRoom{
 
     private Dog pitbull;
     public DogRoom(int x, int y,Dog pitbull){
-        super(x,y);
+        super(x,y,pitbull);
         this.pitbull = pitbull;
     }
 

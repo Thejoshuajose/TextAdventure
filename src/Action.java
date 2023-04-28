@@ -21,22 +21,29 @@ public class Action {
         this.name = name;
     }
 
-    private Enemy kwargs;
+    private Enemy enemy;
 
-    public Enemy getKwargs(){
-        return kwargs;
+    public Enemy getEnemy() {
+        return enemy;
     }
-    public void setKwargs(Enemy kwargs){
-        this.kwargs = kwargs;
+
+    public void setEnemy(Enemy enemy) {
+        this.enemy = enemy;
     }
+    //    public Enemy getKwargs(){
+//        return kwargs;
+//    }
+//    public void setKwargs(Enemy kwargs){
+//        this.kwargs = kwargs;
+//    }
 
     //putting in the constructor
 
-    public Action(Method method,String name,char hotkey,Enemy kwargs){
+    public Action(Method method,String name,char hotkey,Enemy enemy){
         this.method = method;
         this.name = name;
         this.hotkey = hotkey;
-        this.kwargs = kwargs;
+        this.enemy = enemy;
     }
 
     public String str(){

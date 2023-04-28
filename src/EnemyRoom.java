@@ -1,8 +1,8 @@
 public class EnemyRoom extends MapTile{
-    private Enemy enemy;
 
+    private static Enemy enemy;
 
-    public EnemyRoom(int x, int y){
+    public EnemyRoom(int x, int y,Enemy enemy){
         super(x,y);
         this.enemy = enemy;
     }
@@ -17,5 +17,9 @@ public class EnemyRoom extends MapTile{
 
         }
 
+    }
+    public static Enemy getWEnemy() {
+        Enemy currentEnemy  =  enemy;
+        return currentEnemy;
     }
 }

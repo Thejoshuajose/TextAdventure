@@ -1,7 +1,7 @@
 public class FirstBossRoom extends EnemyRoom{
     private Ifrit ifrit;
     public FirstBossRoom(int x, int y,Ifrit ifrit) {
-        super(x,y);
+        super(x,y,ifrit);
         this.ifrit = ifrit;
     }
 

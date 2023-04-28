@@ -1,4 +1,4 @@
-public class FindMaceRoom extends LootRoom
+public class FindMaceRoom extends WeaponRoom
 {
 
     private Mace BigMace;

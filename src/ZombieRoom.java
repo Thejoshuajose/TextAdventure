@@ -1,7 +1,7 @@
 public class ZombieRoom extends EnemyRoom {
     private Zombie greenZombie;
     public ZombieRoom(int x, int y,Zombie greenZombie){
-        super(x, y);
+        super(x, y,greenZombie);
         this.greenZombie = greenZombie;
     }
 

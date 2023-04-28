@@ -1,4 +1,4 @@
-public class FindSwordRoom extends LootRoom{
+public class FindSwordRoom extends WeaponRoom{
 
     private Sword magicSword;
     public FindSwordRoom(int x, int y,Sword magicSword){

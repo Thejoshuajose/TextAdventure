@@ -27,4 +27,8 @@ public abstract class Enemy {
     public boolean is_alive(){
         return (this.hp > 0);
     }
+
+    public void setHp(int enemyhp) {
+        this.hp = enemyhp;
+    }
 }

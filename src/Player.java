@@ -31,6 +31,11 @@ public class Player implements Comparable<Player> {
         this.score = score;
     }
 
+    public int getHp() {
+        return hp;
+    }
+
+
     int plyrGold;
     Integer score;
     Boolean	 victory;
@@ -53,7 +58,7 @@ public class Player implements Comparable<Player> {
         this.name= name;
         inventory.add(new Gold(30));
         inventory.add(new Stick());
-        this.damage = 5;
+        this.damage = getDamage();
         this.hp = 140; // Health Points
         this.location_x = World.Starting_Position.x;
         this.location_y = World.Starting_Position.y;
@@ -210,26 +215,26 @@ public class Player implements Comparable<Player> {
 
    public void attackEnemy(Enemy  enemy)
     {
-        Weapon best_weapon = new Weapon("None", "None", 0, 0);
-        int max_dmg = 0;
-        for (Item i:inventory){
-            if (i instanceof Weapon){
-                Weapon wpn = (Weapon)i;
-                if (wpn.getDamage() > max_dmg){
-                    max_dmg = wpn.getDamage();
-                    best_weapon = wpn;
-                }
-            }
-        } //End Code block for loop
-        System.out.printf("You use %s against %s!",best_weapon.name, enemy.name);
-        enemy.hp -= best_weapon.getDamage();
+        int plyrdamage = getDamage();
+        int enemyhp = 0;
 
-        if (!enemy.is_alive()){
-            System.out.printf("You killed %s!",enemy.name);
-        }else{
-            System.out.printf("%s HP is %d.",enemy.name, enemy.hp);
+        System.out.println("You attacked the enemy for " + plyrdamage + " damage.");
+        enemyhp = enemy.hp - plyrdamage;
+        enemy.setHp(enemyhp);
+        if (enemy.hp <= 0) {
+            System.out.println("The enemy has been defeated!");
+        }
+        else {
+            System.out.println("The enemy has " + enemy.hp + " HP left.");
+            if (this.hp <= 0) {
+                System.out.println("You have been defeated!");
+
+            }
         }
     }
+
+
+
 
     public void do_action(Action action, Enemy enemy, MapTile mp) {
         if (action instanceof MoveEast) {

@@ -1,4 +1,4 @@
-public class FindPillowRoom extends LootRoom {
+public class FindPillowRoom extends WeaponRoom {
 
     private Pillow pillow;
     public FindPillowRoom(int x,int y,Pillow pillow){

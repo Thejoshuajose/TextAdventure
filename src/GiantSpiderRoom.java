@@ -2,7 +2,7 @@ public class GiantSpiderRoom extends EnemyRoom{
 
     private GiantSpider giantSpider;
     public GiantSpiderRoom(int x, int y,GiantSpider giantSpider) {
-        super(x,y);
+        super(x,y,giantSpider);
         this.giantSpider = giantSpider;
     }
 

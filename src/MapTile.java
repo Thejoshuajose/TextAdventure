@@ -77,7 +77,8 @@ public class MapTile {
         ArrayList<Action> moves = new ArrayList<>();
         moves = adjacent_moves();
         moves.add(new RunAway());
-      //moves.add(new Dodge());
+        moves.add(new Dodge());
+        moves.add(new Attack(Method.Attack,"Attack",'a',null));
         moves.add(new ShowInventory());
         return moves;
     }
@@ -87,5 +88,10 @@ public class MapTile {
 
 
     public void modify_player(Player player) {
+    }
+
+
+    public Enemy getEnemy() {
+    return EnemyRoom.getWEnemy();
     }
 }

@@ -3,7 +3,7 @@ public class OgreRoom extends EnemyRoom {
     private Ogre greenOgre;
 
     public OgreRoom(int x, int y,Ogre greenOgre) {
-        super(x, y);
+        super(x, y,greenOgre);
         this.greenOgre = greenOgre;
     }
 
