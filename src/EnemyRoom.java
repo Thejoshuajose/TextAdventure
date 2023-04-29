@@ -18,7 +18,6 @@ public class EnemyRoom extends MapTile{
                enemy.setDamage(0);
                pickedEnemy = true;
            }
-           }
        }else{
 
        }
