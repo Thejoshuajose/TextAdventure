@@ -220,14 +220,19 @@ public class Player implements Comparable<Player> {
 
         System.out.println("You attacked the enemy for " + plyrdamage + " damage.");
         enemyhp = enemy.hp - plyrdamage;
+        System.out.println("The Enemy has " + enemyhp + " health remaining.");
         enemy.setHp(enemyhp);
         if (enemy.hp <= 0) {
             System.out.println("The enemy has been defeated!");
+            enemy.setDamage(0);
+            enemy = null;
         }
         else {
             System.out.println("The enemy has " + enemy.hp + " HP left.");
             if (this.hp <= 0) {
                 System.out.println("You have been defeated!");
+                enemy = null;
+
 
             }
         }

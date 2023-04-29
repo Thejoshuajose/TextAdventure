@@ -17,6 +17,11 @@ public class PixieRoom  extends EnemyRoom{
             System.out.printf("The Enemy you are facing does %d Damage. You have %d Health Remaining...", pixie.damage, the_player.hp);
 
 
+        } else {
+            pixie.setHp(-1);
+            pixie.setDamage(0);
         }
+
+
     }
 }

@@ -20,6 +20,9 @@ public class OgreRoom extends EnemyRoom {
             System.out.printf("The Enemy you are facing does %d Damage. You have %d Health Remaining...", greenOgre.damage, the_player.hp);
 
 
+        } else {
+            greenOgre.setHp(-1);
+            greenOgre.setDamage(0);
         }
     }
 }

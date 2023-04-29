@@ -17,6 +17,9 @@ public class GiantSpiderRoom extends EnemyRoom{
             System.out.printf("The Enemy you are facing does %d Damage. You have %d Health Remaining...", giantSpider.damage, the_player.hp);
 
 
+        } else {
+            giantSpider.setHp(-1);
+            giantSpider.setDamage(0);
         }
     }
 }

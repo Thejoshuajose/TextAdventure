@@ -28,6 +28,11 @@ public abstract class Enemy {
         return (this.hp > 0);
     }
 
+    public boolean is_notalive(){
+
+        return false;
+    }
+
     public void setHp(int enemyhp) {
         this.hp = enemyhp;
     }

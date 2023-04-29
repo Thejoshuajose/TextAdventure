@@ -17,6 +17,9 @@ public class DogRoom extends EnemyRoom{
             System.out.printf("The Enemy you are facing does %d Damage. You have %d Health Remaining...", pitbull.damage, the_player.hp);
 
 
+        } else {
+            pitbull.setHp(-1);
+            pitbull.setDamage(0);
         }
     }
 }

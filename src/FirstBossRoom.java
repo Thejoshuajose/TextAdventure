@@ -16,6 +16,9 @@ public class FirstBossRoom extends EnemyRoom{
             System.out.printf("The Enemy you are facing does %d Damage. You have %d Health Remaining...", ifrit.damage, the_player.hp);
 
 
+        } else {
+            ifrit.setHp(-1);
+            ifrit.setDamage(0);
         }
     }
 }
